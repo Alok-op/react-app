@@ -2,3 +2,57 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
 }
+
+.list {
+  list-style: none;
+  padding: 20px;
+  margin: 20px auto;
+  width: 60%;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list li {
+  padding: 12px 15px;
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.3s ease;
+}
+
+.list li:last-child {
+  border-bottom: none;
+}
+
+.list li a {
+  text-decoration: none;
+  color: #5f5f5e;
+  font-size: 16px;
+  display: block;
+}
+
+.list li:hover {
+  background-color: #f1f1f1;
+}
+
+.details {
+  list-style: none;
+  padding: 20px;
+  margin: 20px auto;
+  width: 60%;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.details li {
+  padding: 12px 15px;
+  border-bottom: 1px solid #e0e0e0;
+  color: #5f5f5e;
+  font-size: 18px;
+}
+
+.details li:last-child {
+  border-bottom: none;
+}

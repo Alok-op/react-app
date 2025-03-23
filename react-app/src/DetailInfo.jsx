@@ -16,7 +16,7 @@ const DetailInfo = () => {
     }, [])
 
     return (
-        <ul>
+        <ul className="details">
             <li>Title: {data.name}</li>
             <li>Description: {data.description}</li>
             <li>Repo page url: {data.owner?.repos_url}</li>

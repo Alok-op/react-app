@@ -13,7 +13,7 @@ const List = () => {
     }, [])
 
     return (
-        <ul>
+        <ul className="list">
             {data.map((repo) => (
                 <li key={repo.id}><Link to={`/details/${repo.id}`}>{repo.name}</Link></li>
             ))}
