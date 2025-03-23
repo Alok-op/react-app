@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router";
 
 const List = () => {
     const [data, setData] = useState([]);
@@ -14,7 +15,7 @@ const List = () => {
     return (
         <ul>
             {data.map((repo) => (
-                <li key={repo.id}><a href="">{repo.name}</a></li>
+                <li key={repo.id}><Link to={`/details/${repo.id}`}>{repo.name}</Link></li>
             ))}
         </ul>
     )
