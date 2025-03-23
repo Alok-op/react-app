@@ -6,10 +6,10 @@ Navigate into the project directory:<br>
 cd react-app
 
 
-Install dependencies<br>
+Install dependencies:<br>
 npm install
 
 
-To start the vite development server<br>
+To start the vite development server:<br>
 npm run dev
 
