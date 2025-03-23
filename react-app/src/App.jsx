@@ -1,6 +1,8 @@
+import List from "./List";
+
 const App = () => {
   return (
-    <h1>hello world</h1>
+    <List/>
   )
 }
 
